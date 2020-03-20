@@ -6079,6 +6079,31 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAFwuoCW+vHemFA="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFw957VU22lcF8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 472,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFw95778G4+Mfc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 448,
+							"top": 744,
+							"width": 521,
+							"height": 129,
+							"text": "This class diagram corresponds to Railways management system. It involves classes like, Train, which consists of few operations and attributes rellated to a train and its details, it is associated to class station where it arrives, and has a ticket from class Ticket. Station, is associated to Train station, at which trains arrives and depart from, they have staff working. Staff is another class associated to people working at the station, who are Ticketchecker and security guard. A passenger ( class) books a ticket and makes associated payment for it.Payment has enumeration , along with the class Ticket. Staff and Passenger are generalized from Person"
 						}
 					]
 				},
@@ -6234,7 +6259,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwozvwGIDlKwI="
 							},
-							"name": "pID"
+							"name": "pID",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -6376,7 +6402,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwozz1R4FIvdQ="
 							},
-							"name": "ticketID"
+							"name": "ticketID",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6574,7 +6601,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwoz/u+IVA2rg="
 							},
-							"name": "trainID"
+							"name": "trainID",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6582,7 +6610,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwoz/u+IVA2rg="
 							},
-							"name": "trainName"
+							"name": "trainName",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6590,7 +6619,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwoz/u+IVA2rg="
 							},
-							"name": "start"
+							"name": "start",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6608,7 +6638,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwoz/u+IVA2rg="
 							},
-							"name": "destination"
+							"name": "destination",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6616,7 +6647,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwoz/u+IVA2rg="
 							},
-							"name": "route"
+							"name": "route",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -6893,7 +6925,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwpLrXLnZt76s="
 							},
-							"name": "experience"
+							"name": "experience",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -7021,7 +7054,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwunw3c9KnpH0="
 							},
-							"name": "name"
+							"name": "name",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -7029,7 +7063,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwunw3c9KnpH0="
 							},
-							"name": "age"
+							"name": "age",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -7037,7 +7072,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwunw3c9KnpH0="
 							},
-							"name": "gender"
+							"name": "gender",
+							"type": ""
 						}
 					],
 					"operations": [
